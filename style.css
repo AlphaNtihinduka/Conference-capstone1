@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.25%;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+.wrapper {
+    max-width: 768px;
+    background-color: green;
+    position: relative;
+    background-image: url(./images/banner_mobile.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
+    position: relative;
+}
+
+.fa-bars {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-times {
+    font-size: 3rem;
+    padding: 2rem;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+
+.header_items_desktop {
+    display: none;
+}
+
+.slide-bar_mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(39, 42, 50);
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s;
+}
+
+.header_items_mobile {
+    padding-top: 4rem ;
+}
+
+.header_items_mobile li {
+    margin-top: 0.4rem;
+    border-bottom: 2px solid rgb(60, 63, 70);
+    padding: 1.4rem;
+}
+
+.header_items_mobile li a{
+   
+    font-size: 2rem;
+    color: #fff;
+}
+
+.banner-area {
+    max-width: 95%;
+}
+
+.greeting_title_banner {
+    padding: 2rem;
+}
+
+.greeting-banner-text {
+    color: rgb(211, 59, 4);
+    font-size: 2rem;
+}
+
+.title-banner-text {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Gotham', sans-serif;
+    background: url(./images/text-image.jpg) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description-banner-text {
+    font-size: 1.3rem;
+    color: #333333;
+    border: 5px solid #fff;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.date_banner_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 13rem;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+
+.date-text{
+    font-weight: bold;
+}
+
+.date_conversion_banner {
+    color: #333333;
+}
+
+.program-title-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.program_area {
+    background-image: url(./images/program_ground.jpg);
+    background-repeat: repeat;
+    padding-bottom: 5rem;
+}
+
+.program-line {
+    width: 7rem;
+    height: 0.2rem;
+    background-color: rgb(239, 81, 60);
+    margin-top: 1.5rem;
+}
+
+.program-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem 0.9rem 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 3rem;
+}
+
+.program-title {
+    color: #ef513c;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+}
+
+.program-description {
+    color: #fff;
+    font-size: 1.2rem;
+}
