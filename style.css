@@ -110,6 +110,11 @@ li {
     padding: 1rem;
 }
 
+.description-banner-text-about {
+    background-color: #fff;
+    border: 1px solid #272a32;
+}
+
 .date_banner_text {
     display: flex;
     flex-direction: column;
@@ -172,6 +177,10 @@ li {
     font-size: 1.2rem;
 }
 
+.speakers-area {
+    background-color: #fff;
+}
+
 .speakers-title {
     display: flex;
     justify-content: center;
@@ -232,7 +241,71 @@ li {
 }
 
 .title-banner-text-about {
-    background-color: #ec5242;
+    color: rgb(240, 81, 61);
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Gotham', sans-serif;
+}
+
+.conferences-events {
+    background-color: #fff;
+}
+
+.events-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-description {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.events-section img {
+    height: 27rem;
+    width: 85%;
+}
+
+.event-card-container {
+    height: 27rem;
+    width: 70%;
+    position: relative;
+    background-color: green;
+}
+
+.future-events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.event-card-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.event-card-description {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(150, 8, 8, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.event-year {
+    font-weight: bold;
+    font-size: 2.5rem;
 }
 
 /* @media (min-width: 768px){
