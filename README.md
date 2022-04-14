@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-- https://alphantihinduka.github.io/Alpha-Mobile-portifolio/
+- https://alphantihinduka.github.io/Capstone-project-1/
 
 ## Getting Started
 
