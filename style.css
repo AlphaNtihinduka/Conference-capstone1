@@ -34,6 +34,10 @@ li {
   position: relative;
 }
 
+.logo {
+  font-size: 2rem;
+}
+
 .fa-bars {
   font-size: 2rem;
   cursor: pointer;
@@ -169,7 +173,7 @@ li {
 .program-title {
   color: #ef513c;
   font-size: 1.4rem;
-  margin-right: 1rem;
+  margin: 0 1rem;
 }
 
 .program-description {
@@ -394,12 +398,14 @@ li {
 
   .main-program-card-container {
     display: flex;
+    justify-content: center;
   }
 
   .program-card {
     flex-direction: column;
     padding: 2rem;
     margin: 0.5rem 0.5rem;
+    width: 30%;
   }
 
   .events-section img {
