@@ -53,8 +53,6 @@ li {
   padding: 1rem 2rem;
   align-items: center;
   flex-direction: row-reverse;
-
-  /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); */
   position: relative;
 }
 
