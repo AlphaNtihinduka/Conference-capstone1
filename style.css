@@ -216,15 +216,16 @@ li {
 }
 
 .speaker-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #272a32;
+  text-align: center;
 }
 
-.footer {
+.partner-container {
   background-color: #2e2e2e;
 }
 
-.footer-title {
+.partner-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,13 +233,16 @@ li {
   padding-top: 3rem;
 }
 
-.footer-partner {
+.partner-heading {
   font-size: 3rem;
+  text-align: center;
+  padding: 0 1.5rem;
+  color: #8f8f8f;
 }
 
 .sponsor-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   padding: 1.5rem;
@@ -247,6 +251,10 @@ li {
 .sponsor-logo img {
   height: 6rem;
   width: 8rem;
+}
+
+.sponsor-logo .amazon {
+    height: 3rem;
 }
 
 .banner-area-about {
@@ -278,6 +286,12 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.events-overview {
+  text-align: center;
+  padding-top: 1rem;
+  color: #747474;
 }
 
 .event-description {
@@ -328,6 +342,13 @@ li {
 .event-year {
   font-weight: bold;
   font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.event-location {
+  color: #fff;
+  text-align: center;
 }
 
 .speaker-personality-cards {
@@ -422,8 +443,16 @@ li {
     font-size: 5rem;
   }
 
+  .greeting-banner-text {
+    color: #f5472c;
+    text-align: center;
+  }
+
   .title-banner-text-about {
-    font-size: 5rem;
+    font-size: 3rem;
+    color: #f5472c;
+    padding: 0 1.5rem;
+    text-align: center;
   }
 
   .main-program-card-container {
@@ -443,6 +472,10 @@ li {
     width: 60%;
   }
 
+  .break {
+    display: none;
+  }
+
   .future-events-container {
     display: flex;
     flex-direction: row;
@@ -451,7 +484,7 @@ li {
     padding: 2rem 2rem;
   }
 
-  .footer {
+  .partner-container {
     padding: 0 3rem;
   }
 
