@@ -2,7 +2,7 @@
 
 # Capstone-project-1
 
-> The project focused on creating Mobile version portifolia setup
+> The project focused on creating Capstone project at Microverse
 
 ## Built With
 
