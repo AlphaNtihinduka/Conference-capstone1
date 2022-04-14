@@ -10,17 +10,41 @@ html {
   font-family: 'poppins', sans-serif;
 }
 
-.wrapper {
-  position: relative;
-  background-image: url(./images/banner_mobile.png);
-}
-
 a {
   text-decoration: none;
 }
 
 li {
   list-style: none;
+}
+
+.top-container {
+  display: none;
+  justify-content: space-between;
+  background-color: #3e3e3e;
+  padding: 1rem 3rem;
+}
+
+.developer {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.top-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.top-links li a {
+  color: #fff;
+  padding: 1rem;
+}
+
+.wrapper {
+  position: relative;
+  background-image: url(./images/banner_mobile.png);
 }
 
 .header {
@@ -344,6 +368,13 @@ li {
     font-family: 'poppins', sans-serif;
   }
 
+  .top-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 3333;
+  }
+
   .header {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     flex-direction: row;
@@ -351,6 +382,7 @@ li {
     width: 100%;
     background-color: #fff;
     z-index: 1;
+    margin-top: 3rem;
   }
 
   .header_items_desktop {
