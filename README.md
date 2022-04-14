@@ -1,17 +1,16 @@
 
-​
 
-# Alpha-Mobile-portifolio
+# Capstone-project-1
 
 > The project focused on creating Mobile version portifolia setup
 
 ## Built With
 
-
 - HTML
 - CSS
--JAVASCRIPT
-​
+- JAVASCRIPT
+- Technologies used: GIT, Github, linters
+
 ## Live Demo (if available)
 
 - https://alphantihinduka.github.io/Alpha-Mobile-portifolio/
@@ -24,38 +23,30 @@
 -set up linter for HTML and CSS
 
 -Install eslintrc.json.
+# Usage
+- Lint code
+    - npx hint .
+    - npx eslint .
+    - npx stylelint "**/*.{css,scss}"
 
 ## Authors
-
-
 👤 **Author1**
-
 
 - GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
 
-
 - Twitter: [@twitterhandle](https://twitter.com/AlphaNtihinduka)
-
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/)
 
+## ✍ Contributing 
+Contributions, issues, and feature requests are welcome!
+Feel free to add issues here 👉 https://github.com/AlphaNtihinduka/Capstone-project-1/issues
 
-​
-25 **Author2**
-Name: Sebastian Daniel Solis Fenger.
+## Support
+Feel free to give  ✨
 
- **Author3**
-Name: Roberto Banos.
- 
-
- **Author4**
- 👤 **Emilia Zambrano**
-
-- GitHub: [@emiliazm](https://github.com/emiliazm)
-- Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
-
-
+## Common creative
+https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 # .gitignore
 node_modules/
