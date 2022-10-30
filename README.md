@@ -11,9 +11,9 @@
 - JAVASCRIPT
 - Technologies used: GIT, Github, linters
 
-## Live Demo (if available)
+## Live Demo
 
-- https://alphantihinduka.github.io/Capstone-project-1/
+- https://spontaneous-chaja-39a421.netlify.app
 
 ## Getting Started
 
